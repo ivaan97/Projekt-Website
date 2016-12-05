@@ -1,2 +1,0 @@
-http://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_self
-http://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery
