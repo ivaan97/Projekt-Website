@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+
+		<title>Optik xyz</title>
+
+		<meta charset="utf-8" />
+		<meta name="content-language"	content="de" />
+		<meta name="author" 			content=" " />
+		<meta name="description" 	    content=" " />
+		<meta name="language"         	content="Deutsch" />
+        
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        
+	</head>
+    
+
+
+    <body>
+        
+        <!-- --------------Menubar-------------- -->
+        <ul>
+            <a style="float: left; color: white; font-size: 30px;">OPTIK XYZ</a>
+            <li><a href="contactITA.html">Contatto</a></li>
+            <li><a href="impressumITA.html">Info legale</a></li>
+            <li><a href="productsITA.html">Prodotti</a></li>
+            <li><a href="indexITA.html">Home</a></li>
+        </ul>
+        <!-- --------------/Menubar-------------- -->
+        
+        
+         <!-- --------------Slider-------------- -->
+    <div class="slider">    
+        <div w3-content w3-display-container>
+          <img class="mySlides" src="img/img01.jpg" style="width:100%">
+          <img class="mySlides" src="img/img02.jpg" style="width:100%">
+          <img class="mySlides" src="img/img04.jpg" style="width:100%">
+
+          <a class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+          <a class="w3-btn-floating w3-display-right" onclick="plusDivs(1)">&#10095;</a>
+        </div>
+        
+        <div class="home-content">
+            <br><br><br>><a>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</a>
+        </div>
+        
+    </div>
+        <!-- --------------/Slider-------------- -->
+  
+        
+        
+        
+        
+        <!-- --------------Script-------------- -->
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+    </script>
+        <!-- --------------/Script-------------- -->
+
+        
+        
+        <footer>
+            <div>
+                <br>
+                    <a href="indexITA.html"><img src="icons/italy.png" class="flag"></a>
+                    <a href="index.html"><img src="icons/german.png" class="flag"></a>
+                    <a href="indexEN.html"><img src="icons/unionjack.png" class="flag"></a>
+                <br>© optik xyz 2016
+            
+            </div>
+        </footer>  
+        
+        
+    </body>
+
+</html>
